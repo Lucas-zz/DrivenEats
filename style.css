@@ -1,219 +1,215 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 
 header {
-    width: 100%;
-    height: 92px;
-    
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 92px;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
-    position: fixed;
-    top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
-    background-color: #CF2B2B;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+
+  background-color: #cf2b2b;
 }
 .topo {
-    padding-left: 21px;
-    padding-bottom: 8px;
+  padding-left: 21px;
+  padding-bottom: 8px;
 }
 .empresa {
-    font-family: 'Righteous';
-    font-size: 44px;
-    
-    line-height: 55px;
-    letter-spacing: -0.012em;
+  font-family: "Righteous";
+  font-size: 44px;
 
-    color: #fff;
+  line-height: 55px;
+  letter-spacing: -0.012em;
+
+  color: #fff;
 }
 .lema {
-    font-family: 'Roboto';
-    font-size: 18px;
-    font-weight: 300;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 300;
 
-    line-height: 21px;
+  line-height: 21px;
 
-    color: #fff;
+  color: #fff;
 }
 
-
-
 main {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 
-    padding-top: 92px;
-    padding-bottom: 108px;
+  padding-top: 92px;
+  padding-bottom: 108px;
 }
 
 section {
-    font-family: 'Roboto';
+  font-family: "Roboto";
 
-    padding-left: 19px;
+  padding-left: 19px;
 }
 .titulo {
-    font-family: 'Righteous';
-    font-size: 26px;
-    font-weight: 400;
-    line-height: 32px;
-    letter-spacing: 0.018em;
-    
-    padding-top: 25px;
+  font-family: "Righteous";
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.018em;
 
-    color: #333;
+  padding-top: 25px;
+
+  color: #333;
 }
 .barra-rolagem {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 
-    overflow-x: auto;
+  overflow-x: auto;
 }
 
-
 article {
-    width: 172px;
-    height: 216px;
+  width: 172px;
+  height: 216px;
 
-    background-color: #fff;
-    
-    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
-    border-radius: 9px;
-    
-    margin-right: 15px;
-    margin-top: 15px;
-    
+  background-color: #fff;
+
+  box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+
+  margin-right: 15px;
+  margin-top: 15px;
 }
 /* .borda = borda verde de seleção de
     item classe manipulada pelo script.js.
     precisei criar uma borda pra cada tipo
     do pedido (comida, bebida, sobremesa) */
 .borda1 {
-    box-shadow: inset 0px 0px 0px 5px #32B72F;
+  box-shadow: inset 0px 0px 0px 5px #32b72f;
 }
 .borda2 {
-    box-shadow: inset 0px 0px 0px 5px #32B72F;
+  box-shadow: inset 0px 0px 0px 5px #32b72f;
 }
 .borda3 {
-    box-shadow: inset 0px 0px 0px 5px #32B72F;
+  box-shadow: inset 0px 0px 0px 5px #32b72f;
 }
 /* .checkmark = checkmark de escolha do produto
 posicionado em relação (relative) ao .preço */
 .checkmark {
-    position: absolute;
-    right: 0;
+  position: absolute;
+  right: 0;
 
-    font-size: 20px;
-    color: #32B72F;
+  font-size: 20px;
+  color: #32b72f;
 }
 .noDisplay {
-    display: none;
+  display: none;
 }
 .padding {
-    padding: 0px 12px;
+  padding: 0px 12px;
 
-    height: 100%;
+  height: 100%;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
 img {
-    width: 144px;
-    height: 87px;
-    border-radius: 4px;
+  width: 144px;
+  height: 87px;
+  border-radius: 4px;
 }
 .nome {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
 
-    color: #333;
+  color: #333;
 }
 .descricao {
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 18px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
 
-    color: #a6a6a6;
+  color: #a6a6a6;
 }
 .preco {
-    width: 100%;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
 
-    color: #000;
+  color: #000;
 
-    position: relative;
+  position: relative;
 }
 
-
-
 footer {
-    width: 100%;
-    height: 92px;
+  width: 100%;
+  height: 92px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    position: fixed;
-    bottom: 0;
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
 
-    background-color: #fff;
+  background-color: #fff;
 }
 /* .botao = força o botão a ocupar um
     espaço maior que o texto dentro
     dele em relação ao footer */
 .botao {
-    width: 90%;
-    height: 60%;
+  width: 90%;
+  height: 60%;
 }
 .botao .disabled {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 
-    border: none;
-    border-radius: 50px;
+  border: none;
+  border-radius: 50px;
 
-    text-decoration: none;
-    text-align: center;
+  text-decoration: none;
+  text-align: center;
 
-    color: #fff;
-    background-color: #CBCBCB;
+  color: #fff;
+  background-color: #cbcbcb;
 
-    font-family: 'Roboto';
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 23.44px;
-    letter-spacing: 0.018em; 
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 23.44px;
+  letter-spacing: 0.018em;
 }
 .botao .enabled {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 
-    border: none;
-    border-radius: 50px;
+  border: none;
+  border-radius: 50px;
 
-    text-decoration: none;
-    text-align: center;
+  text-decoration: none;
+  text-align: center;
 
-    color: #fff;
-    background-color: #32B72F;
+  color: #fff;
+  background-color: #32b72f;
 
-    font-family: 'Roboto';
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 23.44px;
-    letter-spacing: 0.018em; 
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23.44px;
+  letter-spacing: 0.018em;
 }
