@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="shortcut icon" href="/assets/favicon.png">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>DrivenEats</title>
+</head>
+
+<body">
+    <header>
+        <div class="topo">
+            <div class="empresa">
+                <span>DrivenEats</span>
+            </div>
+            <div class="lema">
+                <span>Sua comida em 6 minutos</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="titulo">
+                <span>Primeiro, seu prato</span>
+            </div>
+            <div class="barra-rolagem">
+                <article onclick="toggle1(this)" class="comida">
+                    <div class="padding">
+                        <figure>
+                            <img src="/assets/img/x_salada 1.jpg">
+                        </figure>
+                        <span class="nome">X-Salada</span>
+                        <span class="descricao">Hamburguer tradicio-<br>nal de 270g e molho</span>
+                        <span class="preco">R$ <span class="preco valor">14,90</span>
+                            <ion-icon class="checkmark noDisplay" name="checkmark-circle"></ion-icon>
+                        </span>
+                    </div>
+                </article>
+                <article onclick="toggle1(this)" class="comida">
+                    <div class="padding">
+                        <figure>
+                            <img src="/assets/img/frango_yin_yang 1.jpg">
+                        </figure>
+                        <span class="nome">Frango Yin Yang</span>
+                        <span class="descricao">Frango com salada,<br>batatas fritas e molho</span>
+                        <span class="preco">R$ <span class="preco valor">16,90</span>
+                            <ion-icon class="checkmark noDisplay" name="checkmark-circle"></ion-icon>
+                        </span>
+                    </div>
+                </article>
+                <article onclick="toggle1(this)" class="comida">
+                    <div class="padding">
+                        <figure>
+                            <img src="/assets/img/yakisoba_carne 1.jpg">
+                        </figure>
+                        <span class="nome">Yakisoba - Carne</span>
+                        <span class="descricao">Yakisoba de carne<br>e legumes</span>
+                        <span class="preco">R$ <span class="preco valor">21,90</span>
+                            <ion-icon class="checkmark noDisplay" name="checkmark-circle"></ion-icon>
+                        </span>
+                    </div>
+                </article>
+                <article onclick="toggle1(this)" class="comida">
+                    <div class="padding">
+                        <figure>
+                            <img src="/assets/img/yakisoba-frango 1.jpg">
+                        </figure>
+                        <span class="nome">Yakisoba - Frango</span>
+                        <span class="descricao">Yakisoba de frango<br>e legumes</span>
+                        <span class="preco">R$ <span class="preco valor">21,90</span>
+                            <ion-icon class="checkmark noDisplay" name="checkmark-circle"></ion-icon>
+                        </span>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section>
+            <div class="titulo">
+                <span>Agora, sua bebida</span>
+            </div>
+            <div class="barra-rolagem">
+                <article onclick="toggle2(this)" class="bebida">
+                    <div class="padding">
+                        <figure>
+                            <img src="/assets/img/coquinha_gelada 1.jpg">
+                        </figure>
+                        <span class="nome">Coca-Cola</span>
+                        <span class="descricao">Lata 350ml</span>
+                        <span class="preco">R$ <number class="preco valor">6,90</number>
+                            <ion-icon class="checkmark noDisplay" name="checkmark-circle"></ion-icon>
+                        </span>
+                    </div>
+                </article>
+                <article onclick="toggle2(this)" class="bebida">
+                    <div class="padding">
+                        <figure>
+                            <img src="/assets/img/guarana_gelado 1.jpg">
+                        </figure>
+                        <span class="nome">Guaraná Antarctica</span>
+                        <span class="descricao">Lata 350ml</span>
+                        <span class="preco">R$ <number class="preco valor">5,90</number>
+                            <ion-icon class="checkmark noDisplay" name="checkmark-circle"></ion-icon>
+                        </span>
+                    </div>
+                </article>
+                <article onclick="toggle2(this)" class="bebida">
+                    <div class="padding">
+                        <figure>
+                            <img src="/assets/img/sprite_gelada 1.jpg">
+                        </figure>
+                        <span class="nome">Sprite</span>
+                        <span class="descricao">Lata 350ml</span>
+                        <span class="preco">R$ <number class="preco valor">5,90</number>
+                            <ion-icon class="checkmark noDisplay" name="checkmark-circle"></ion-icon>
+                        </span>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section>
+            <div class="titulo">
+                <span>Por fim, sua sobremesa</span>
+            </div>
+            <div class="barra-rolagem">
+                <article onclick="toggle3(this)" class="sobremesa">
+                    <div class="padding">
+                        <figure>
+                            <img src="/assets/img/gelatina 1.jpg">
+                        </figure>
+                        <span class="nome">Gelatina</span>
+                        <span class="descricao">Gelatina em copo</span>
+                        <span class="preco">R$ <number class="preco valor">5,90</number>
+                            <ion-icon class="checkmark noDisplay" name="checkmark-circle"></ion-icon>
+                        </span>
+                    </div>
+                </article>
+                <article onclick="toggle3(this)" class="sobremesa">
+                    <div class="padding">
+                        <figure>
+                            <img src="/assets/img/pudim.jpg">
+                        </figure>
+                        <span class="nome">Pudim</span>
+                        <span class="descricao">Uma fatia de pudim</span>
+                        <span class="preco">R$ <number class="preco valor">8,90</number>
+                            <ion-icon class="checkmark noDisplay" name="checkmark-circle"></ion-icon>
+                        </span>
+                    </div>
+                </article>
+                <article onclick="toggle3(this)" class="sobremesa">
+                    <div class="padding">
+                        <figure>
+                            <img src="/assets/img/sorvete_chocolate 1.jpg">
+                        </figure>
+                        <span class="nome">Sorvete Chocolate</span>
+                        <span class="descricao">Sundae, pequeno</span>
+                        <span class="preco">R$ <number class="preco valor">9,90</number>
+                            <ion-icon class="checkmark noDisplay" name="checkmark-circle"></ion-icon>
+                        </span>
+                    </div>
+                </article>
+                <article onclick="toggle3(this)" class="sobremesa">
+                    <div class="padding">
+                        <figure>
+                            <img src="/assets/img/sorvete_morango 1.jpg">
+                        </figure>
+                        <span class="nome">Sorvete Morango</span>
+                        <span class="descricao">Sundae, pequeno</span>
+                        <span class="preco">R$ <number class="preco valor">9,90</number>
+                            <ion-icon class="checkmark noDisplay" name="checkmark-circle"></ion-icon>
+                        </span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="botao">
+            <button onclick="fechamentoWP();" class="disabled">Selecione os 3 itens<br /> para fechar o
+                pedido</button>
+        </div>
+    </footer>
+
+    <script src="/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    </body>
+
+</html>
