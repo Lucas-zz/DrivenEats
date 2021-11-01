@@ -124,6 +124,6 @@ function fechamentoWP() {
       `Olá, gostaria de fazer o pedido:\n- Prato: ${tipoComida}\n- Bebida: ${tipoBebida}\n- Sobremesa: ${tipoSobremesa}\nTotal: R$ ${total}
             \nNome: ${name}\nEndereço: ${address}`
     );
-    window.open(` https://wa.me/+5547996988923?text=${msg}`);
+    window.open(` https://wa.me/+5521999999999?text=${msg}`);
   }
 }
