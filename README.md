@@ -6,6 +6,6 @@ Não se esqueça de permitir a abertura de pop-ups para que o aplicativo consiga
 
 Deploy*: https://ezh9x.csb.app/
 
-*mobile only
+<em>*mobile only</em>
 
 Programming by Lucas Azzolini Vieira
